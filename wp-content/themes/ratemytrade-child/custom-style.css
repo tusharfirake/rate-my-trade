@@ -1,5 +1,5 @@
 .box_content{
-	color:#000;
+	/*color:#000;*/
 }
 /** test ****/
 #join_us_div h4,
@@ -12,7 +12,7 @@
 	color:#ffeb00;
 	font-family: 'roboto_slabbold';
     margin: 0px;
-    font-size:25px;
+    font-size:15px;
 }
 
 #signup_or h4{

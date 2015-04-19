@@ -19,7 +19,43 @@ Author: init
 Version: 1.0
 Tags: project, black, bid
 */
+@font-face
+{
+	font-family: Titillium;
+	src: url(fonts/Titillium-Regular.otf);
+}
+@font-face
+{
+	font-family: PTN57F;
+	src: url(fonts/PTN57F.ttf) format("truetype");;
+}
+@font-face
+{
+	font-family: Aller_It;
+	src: url(fonts/Aller_It.ttf) format("truetype");;
+}
 
+@font-face {
+    font-family: 'allerbold';
+    src: url('fonts/aller_bd-webfont.eot');
+    src: url('fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aller_bd-webfont.woff') format('woff'),
+         url('fonts/aller_bd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('fonts/aller_rg-webfont.eot');
+    src: url('fonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aller_rg-webfont.woff') format('woff'),
+         url('fonts/aller_rg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 @font-face {
     font-family: 'latoregular';
     src: url('./fonts/Lato-Regular-webfont.eot');
@@ -60,99 +96,82 @@ p{
 }
 .multi_cat_placeholder_thing
 {
-	width:500px;   padding:7px;
+	width:500px;  
 	height:160px;
 	font-size:13px;
- 
 	background:#f2f2f2;
 	overflow:auto;
-	float:left	;
+	float:left;
 	border-radius:1px;
 	border: 1px solid #ccc;
 	background: #fcfcfc;
 	padding: 12px;
-	font-size: 13px;
 	color: #555;
- 
 }
-
-
 .ep_ep2
 {
 	font-family: 'latoregular';
 	font-size:12px;
 	border:1px solid #ccc;
 	padding:5px; 
- border-radius:5px ;
+    border-radius:5px ;
 	line-height:15px;
 	color:#333;
 }
-
 .rama1
 {
 	float:left	
 }
-
 .rama2
 {
 	padding-top:1px;
 	padding-left:2px
 }
-
 .full_width{
 	width:98%;
 	float:left	
 }
-
 .cross_cross
 {
 	float:left; 
 	width:100% 
 }
-
 .cross_cross2
 {
 	float:left; 
 	width:100% 
 }
-
 .cross_cross2 .dropzone
 {
 	min-height:140px	
 }
 /*------------------------*/
-  
 .user-table-row
 {
 	width:100%;
-	
 	padding-bottom:17px;
 	border-bottom:1px solid #ddd;
 	margin:auto;
 	display:inline-block;
 	margin-bottom:17px;	
 }
-
 .user-table-user-avatar{
 	float:left;
 	width:120px	
 }
-
 .user-table-user-info
 {
 	float:left;
 	width:510px			
 }
-
 .user-table-user-info h3
 {
 	font-size:17px;
-	font-family:'latoregular'	;
-	padding:0; margin:0
+	font-family:'latoregular';
+	padding:0; 
+	margin:0
 }
-
 /*-------*/
-
 .my_category_image_holder
 {
 	float:left;
@@ -160,13 +179,8 @@ p{
 	text-align:center;
 	min-height:150px;
 	margin: 7px; 
-	
 	background: #FFF;
- 
 	border-radius: 4px;
- 
-	
-	
 }
 li.browse-by-category-thumbs
 {
@@ -181,12 +195,9 @@ li.browse-by-category-thumbs
 	margin-bottom:50px;
 	margin-top:40px
 }
-
-
 .my_category_image_holder img
 {
 	border:0;
- 
 }
 
 .my_category_image_holder img:hover
@@ -199,35 +210,26 @@ li.browse-by-category-thumbs
 {
 	width:100%;
 	margin:auto;
-	text-align:center	;
+	text-align:center;
 	padding-top:15px
 }
-
 .my_image_div_cat_name
 {
- 
 	width:100%;
 	display:inline-block;
 	margin:auto;
- 
 }
-
 .my_image_div_cat_name .padd10
 {
-	text-align:center;	
-		
+	text-align:center;		
 }
-
-
 .my_category_image_holder:hover
 {
 	border-color:#aaa	
 }
-
 .my_image_div_cat_name a:link, .my_image_div_cat_name a:visited
 {
- 
-	color:#333;	
+    color:#333;	
 	font-family: 'latoregular';
 	font-size:19px;
 }
@@ -236,28 +238,23 @@ li.browse-by-category-thumbs
 	text-decoration:none;
 	color:#3B5998	
 }
-
 .see-more-tax
 {
 	float:left;
 	width:100%;	
 }
- 
  /*----------------------*/
-
 .my-deliv_1
 {
 	float:left;	
 	width:100%
 }
-
 .my-deliv_2
 {
 	float:left;	
 	width:100%;
 	margin-top:5px
 }
-
 .my-bid-thing-me
 {
 	float:left;
@@ -872,7 +869,7 @@ a.feed_prj:link, a.feed_prj:visited
 
 .padd10 { 
 	padding:10px;
-	color:#333; 
+	/*color:#333; */
 }
 
 .stuffa
@@ -884,7 +881,6 @@ a.feed_prj:link, a.feed_prj:visited
 #main
 {
 	text-align:left;
-	
 	margin-bottom:10px;
 	display:inline-block;
 	position:relative;
@@ -892,31 +888,22 @@ a.feed_prj:link, a.feed_prj:visited
 	margin: auto;
 	text-align: left;
  	padding-top:15px;
-	padding-bottom:15px;
-	
+	padding-bottom:15px;	
 }
-
 .blg_pst
 {
 	padding-top:10px	
 }
-
 .wrapper
 {
 	width: 95%;
 	margin: 0 auto;	
 }
-
-
-
-
 #wrapper
 {
 	width:100%;
 	margin:auto;
 	text-align:center
-	
-	
 }
 input, textarea {
 	color:#000;
@@ -936,60 +923,15 @@ input, textarea {
 }
 .content_dust{
 	float:left;
-	  
-	 padding-top:0;
+    padding-top:0;
     width: 69%;
 	height:auto;
 }
-
-
 .wp-pagenavi
 {
 	margin-top:15px	
 }
 
-
-@font-face
-{
-	font-family: Titillium;
-	src: url(fonts/Titillium-Regular.otf);
-}
-
- 
-@font-face
-{
-	font-family: PTN57F;
-	src: url(fonts/PTN57F.ttf) format("truetype");;
-}
- 
- 
-@font-face
-{
-	font-family: Aller_It;
-	src: url(fonts/Aller_It.ttf) format("truetype");;
-}
-
-@font-face {
-    font-family: 'allerbold';
-    src: url('fonts/aller_bd-webfont.eot');
-    src: url('fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/aller_bd-webfont.woff') format('woff'),
-         url('fonts/aller_bd-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'allerregular';
-    src: url('fonts/aller_rg-webfont.eot');
-    src: url('fonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/aller_rg-webfont.woff') format('woff'),
-         url('fonts/aller_rg-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 .main_tagLine {
